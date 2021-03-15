@@ -1,0 +1,19 @@
+{
+  "ap": {
+    "ssid": "<<access point>>",
+    "password": "<<password>>"
+  },
+  "mqtt": {
+    "client_id": "IoT:",
+    "host": "test.mosquitto.org",
+    "port": 8883,
+    "user": null,
+    "password": null,
+    "publish":   "433gw/data",
+    "subscribe": "433gw/cmd"
+  },
+  "server": {
+    "trustedca": "/mosquitto.pem",
+    "fingerprint": "EE:BC:4B:F8:57:E3:D3:E4:07:54:23:1E:F0:C8:A1:56:E0:D3:1A:1C"
+  }
+}
